@@ -1,3 +1,4 @@
+com\localvc\core\CommitStore.class
 com\localvc\core\Index.class
 com\localvc\commands\IndexCommand.class
 com\localvc\App.class
@@ -6,4 +7,5 @@ com\localvc\core\StatusChecker.class
 com\localvc\commands\InitCommand.class
 com\localvc\commands\StatusCommand.class
 com\localvc\core\FileScanner.class
+com\localvc\commands\CommitCommand.class
 com\localvc\core\StatusResult.class

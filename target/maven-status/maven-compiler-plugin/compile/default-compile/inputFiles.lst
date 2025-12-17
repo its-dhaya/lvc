@@ -1,8 +1,10 @@
 C:\flutter scr\lvc\src\main\java\com\localvc\App.java
+C:\flutter scr\lvc\src\main\java\com\localvc\commands\CommitCommand.java
 C:\flutter scr\lvc\src\main\java\com\localvc\commands\IndexCommand.java
 C:\flutter scr\lvc\src\main\java\com\localvc\commands\InitCommand.java
 C:\flutter scr\lvc\src\main\java\com\localvc\commands\ScanCommand.java
 C:\flutter scr\lvc\src\main\java\com\localvc\commands\StatusCommand.java
+C:\flutter scr\lvc\src\main\java\com\localvc\core\CommitStore.java
 C:\flutter scr\lvc\src\main\java\com\localvc\core\FileScanner.java
 C:\flutter scr\lvc\src\main\java\com\localvc\core\Index.java
 C:\flutter scr\lvc\src\main\java\com\localvc\core\StatusChecker.java

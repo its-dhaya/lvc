@@ -17,7 +17,7 @@ public class InitCommand implements Runnable {
         Path lvcDir = Path.of(".lvc");
 
         if (Files.exists(lvcDir)) {
-            System.out.println("Error: LocalVC repository already initialized.");
+            System.out.println("LocalVC repository already initialized.");
             return;
         }
 
