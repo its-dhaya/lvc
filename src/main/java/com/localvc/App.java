@@ -1,14 +1,17 @@
 package com.localvc;
+import com.localvc.commands.InitCommand;
+import com.localvc.commands.ScanCommand;
+
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
-import com.localvc.commands.InitCommand;
 
 @Command(
         name = "lvc",
         description = "LocalVC - a lightweight local version control tool",
         mixinStandardHelpOptions = true,
-        subcommands = { InitCommand.class }
+        subcommands = { InitCommand.class, ScanCommand.class }
+        
 )
 
 public class App implements Runnable {
