@@ -2,12 +2,15 @@ package com.localvc;
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
+import com.localvc.commands.InitCommand;
 
 @Command(
         name = "lvc",
         description = "LocalVC - a lightweight local version control tool",
-        mixinStandardHelpOptions = true
+        mixinStandardHelpOptions = true,
+        subcommands = { InitCommand.class }
 )
+
 public class App implements Runnable {
 
     public static void main(String[] args) {
@@ -17,6 +20,7 @@ public class App implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("LocalVC CLI");
+        System.out.println("Use 'lvc init' to initialize a repository.");
+
     }
 }

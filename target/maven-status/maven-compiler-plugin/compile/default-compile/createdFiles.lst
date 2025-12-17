@@ -1,1 +1,2 @@
 com\localvc\App.class
+com\localvc\commands\InitCommand.class
