@@ -1,4 +1,6 @@
 com\localvc\core\FileScanner.class
+com\localvc\core\Index.class
+com\localvc\commands\IndexCommand.class
 com\localvc\App.class
 com\localvc\commands\ScanCommand.class
 com\localvc\commands\InitCommand.class
