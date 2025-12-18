@@ -2,7 +2,6 @@ package com.localvc.core;
 
 import java.io.IOException;
 import java.nio.file.*;
-import java.util.Comparator;
 
 public class CommitStore {
 
