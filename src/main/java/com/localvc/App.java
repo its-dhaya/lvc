@@ -5,7 +5,8 @@ import com.localvc.commands.IndexCommand;
 import com.localvc.commands.StatusCommand;
 import com.localvc.commands.CommitCommand;
 import com.localvc.commands.LogCommand;
-
+import com.localvc.commands.SyncCommand;
+import com.localvc.commands.CheckoutCommand;
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
@@ -14,7 +15,7 @@ import picocli.CommandLine.Command;
         name = "lvc",
         description = "LocalVC - a lightweight local version control tool",
         mixinStandardHelpOptions = true,
-        subcommands = { InitCommand.class, ScanCommand.class, IndexCommand.class, StatusCommand.class, CommitCommand.class, LogCommand.class }
+        subcommands = { InitCommand.class, ScanCommand.class, IndexCommand.class, StatusCommand.class, CommitCommand.class, LogCommand.class, SyncCommand.class, CheckoutCommand.class }
         
 )
 

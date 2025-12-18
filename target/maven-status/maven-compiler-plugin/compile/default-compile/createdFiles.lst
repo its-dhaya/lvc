@@ -1,5 +1,7 @@
 com\localvc\core\CommitStore.class
+com\localvc\core\CheckoutService.class
 com\localvc\core\Index.class
+com\localvc\core\SyncService.class
 com\localvc\core\CommitEntry.class
 com\localvc\commands\CommitCommand.class
 com\localvc\core\StatusResult.class
@@ -8,7 +10,9 @@ com\localvc\App.class
 com\localvc\commands\ScanCommand.class
 com\localvc\core\StatusChecker.class
 com\localvc\commands\InitCommand.class
+com\localvc\commands\CheckoutCommand.class
 com\localvc\commands\StatusCommand.class
 com\localvc\core\FileScanner.class
+com\localvc\commands\SyncCommand.class
 com\localvc\core\CommitLogReader.class
 com\localvc\commands\LogCommand.class
